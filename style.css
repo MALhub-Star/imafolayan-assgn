@@ -3,3 +3,11 @@ section{
     font-size: 100px;
     color: rebeccapurple;
 }
+
+@media screen and (max-width: 768px){
+    Section{
+        font-size: 40px !important;
+        margin: 0 !important;
+        margin-top: 80% !important;
+    }
+}
