@@ -1,5 +1,5 @@
 let cm;
 cm = 1000;
-meter = cm / 100.0;
+kilometer = cm / 100000;
 
-document.write("Length in meter = " + meter + "m");
+document.write("Length in Kilometer = " + kilometer + "m");
