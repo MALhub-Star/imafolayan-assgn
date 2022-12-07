@@ -10,6 +10,23 @@
 <body>
     <section>
     <center id="center">
+        <h1 style="text-align: center; font-size: 25px; color: black">
+            CM to KM Converter
+          </h1>
+          <p>Type in your cm value below</p>
+          <p>
+            <label for="">Centimeter:</label>
+            <input
+              id="inputCentimeter"
+              type="number"
+              placeholder="Input"
+              oninput="LengthConverter(this.value)"
+              onchange="LengthConverter(this.value)">
+            
+          
+            <p>Kilometer: <span id="outputKilograms"></span></p>
+          
+          </p>
     <script src="app.js" id="center"></script>
     </center>
 </section>
